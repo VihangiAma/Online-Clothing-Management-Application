@@ -1,0 +1,173 @@
+[27-Oct-2024 15:27:23 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\easy-login-woocommerce\includes\class-xoo-el-form-handler.php on line 21
+[27-Oct-2024 15:32:33 UTC] WordPress database error Table 'local.wp_woocommerce_sessions' doesn't exist for query SELECT session_value FROM wp_woocommerce_sessions WHERE session_key = '1' made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, WooCommerce->init, wc_load_cart, WooCommerce->initialize_session, WC_Session_Handler->init, WC_Session_Handler->init_session_cookie, WC_Session_Handler->get_session_data, WC_Session_Handler->get_session
+[27-Oct-2024 15:32:33 UTC] WordPress database error Table 'local.wp_wc_webhooks' doesn't exist for query SELECT webhook_id
+				FROM wp_wc_webhooks
+				WHERE 1=1
+				AND `status` = 'active'
+				
+				
+				
+				
+				
+				
+				ORDER BY webhook_id DESC made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, WooCommerce->init, WooCommerce->load_webhooks, wc_load_webhooks, WC_Data_Store->__call, WC_Webhook_Data_Store->get_webhooks_ids, WC_Webhook_Data_Store->search_webhooks
+[27-Oct-2024 15:32:33 UTC] WordPress database error Table 'local.wp_woocommerce_attribute_taxonomies' doesn't exist for query SELECT * FROM wp_woocommerce_attribute_taxonomies WHERE attribute_name != '' ORDER BY attribute_name ASC; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Post_Types::register_taxonomies, wc_get_attribute_taxonomies
+[27-Oct-2024 15:32:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_create_page() in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\yith-woocommerce-wishlist\includes\class-yith-wcwl-install.php:132
+Stack trace:
+#0 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\yith-woocommerce-wishlist\includes\class-yith-wcwl-install.php(76): YITH_WCWL_Install->add_pages()
+#1 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\yith-woocommerce-wishlist\includes\class-yith-wcwl-install.php(49): YITH_WCWL_Install->init()
+#2 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-includes\class-wp-hook.php(324): YITH_WCWL_Install->maybe_install('')
+#3 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-settings.php(700): do_action('init')
+#6 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-config.php(103): require_once('C:\\Users\\hispe\\...')
+#7 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-load.php(50): require_once('C:\\Users\\hispe\\...')
+#8 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-cron.php(46): require_once('C:\\Users\\hispe\\...')
+#9 {main}
+  thrown in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\yith-woocommerce-wishlist\includes\class-yith-wcwl-install.php on line 132
+[27-Oct-2024 15:33:52 UTC] PHP Warning:  Undefined property: WP_Error::$url in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\kadence-starter-templates\inc\class-import-actions.php on line 111
+[27-Oct-2024 15:33:52 UTC] PHP Warning:  Undefined property: WP_Error::$url in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\kadence-starter-templates\inc\class-import-actions.php on line 111
+[27-Oct-2024 15:33:52 UTC] PHP Warning:  Undefined property: WP_Error::$url in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\kadence-starter-templates\inc\class-import-actions.php on line 111
+[27-Oct-2024 15:33:52 UTC] PHP Warning:  Undefined property: WP_Error::$url in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\kadence-starter-templates\inc\class-import-actions.php on line 111
+[27-Oct-2024 15:33:52 UTC] PHP Warning:  Undefined property: WP_Error::$url in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\kadence-starter-templates\inc\class-import-actions.php on line 111
+[27-Oct-2024 15:33:52 UTC] PHP Warning:  Undefined property: WP_Error::$url in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\kadence-starter-templates\inc\class-import-actions.php on line 111
+[27-Oct-2024 15:33:52 UTC] PHP Warning:  Undefined property: WP_Error::$url in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\kadence-starter-templates\inc\class-import-actions.php on line 111
+[27-Oct-2024 15:33:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_create_page() in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\yith-woocommerce-wishlist\includes\class-yith-wcwl-install.php:132
+Stack trace:
+#0 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\yith-woocommerce-wishlist\includes\class-yith-wcwl-install.php(76): YITH_WCWL_Install->add_pages()
+#1 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\yith-woocommerce-wishlist\includes\class-yith-wcwl-install.php(49): YITH_WCWL_Install->init()
+#2 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-includes\class-wp-hook.php(324): YITH_WCWL_Install->maybe_install('')
+#3 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-settings.php(700): do_action('init')
+#6 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-config.php(103): require_once('C:\\Users\\hispe\\...')
+#7 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-load.php(50): require_once('C:\\Users\\hispe\\...')
+#8 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-cron.php(46): require_once('C:\\Users\\hispe\\...')
+#9 {main}
+  thrown in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\yith-woocommerce-wishlist\includes\class-yith-wcwl-install.php on line 132
+[27-Oct-2024 15:35:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_create_page() in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\yith-woocommerce-wishlist\includes\class-yith-wcwl-install.php:132
+Stack trace:
+#0 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\yith-woocommerce-wishlist\includes\class-yith-wcwl-install.php(76): YITH_WCWL_Install->add_pages()
+#1 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\yith-woocommerce-wishlist\includes\class-yith-wcwl-install.php(49): YITH_WCWL_Install->init()
+#2 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-includes\class-wp-hook.php(324): YITH_WCWL_Install->maybe_install('')
+#3 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-settings.php(700): do_action('init')
+#6 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-config.php(103): require_once('C:\\Users\\hispe\\...')
+#7 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-load.php(50): require_once('C:\\Users\\hispe\\...')
+#8 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-cron.php(46): require_once('C:\\Users\\hispe\\...')
+#9 {main}
+  thrown in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\yith-woocommerce-wishlist\includes\class-yith-wcwl-install.php on line 132
+[27-Oct-2024 15:36:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_create_page() in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\yith-woocommerce-wishlist\includes\class-yith-wcwl-install.php:132
+Stack trace:
+#0 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\yith-woocommerce-wishlist\includes\class-yith-wcwl-install.php(76): YITH_WCWL_Install->add_pages()
+#1 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\yith-woocommerce-wishlist\includes\class-yith-wcwl-install.php(49): YITH_WCWL_Install->init()
+#2 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-includes\class-wp-hook.php(324): YITH_WCWL_Install->maybe_install('')
+#3 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-settings.php(700): do_action('init')
+#6 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-config.php(103): require_once('C:\\Users\\hispe\\...')
+#7 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-load.php(50): require_once('C:\\Users\\hispe\\...')
+#8 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-cron.php(46): require_once('C:\\Users\\hispe\\...')
+#9 {main}
+  thrown in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\yith-woocommerce-wishlist\includes\class-yith-wcwl-install.php on line 132
+[27-Oct-2024 15:37:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_create_page() in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\yith-woocommerce-wishlist\includes\class-yith-wcwl-install.php:132
+Stack trace:
+#0 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\yith-woocommerce-wishlist\includes\class-yith-wcwl-install.php(76): YITH_WCWL_Install->add_pages()
+#1 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\yith-woocommerce-wishlist\includes\class-yith-wcwl-install.php(49): YITH_WCWL_Install->init()
+#2 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-includes\class-wp-hook.php(324): YITH_WCWL_Install->maybe_install('')
+#3 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-settings.php(700): do_action('init')
+#6 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-config.php(103): require_once('C:\\Users\\hispe\\...')
+#7 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-load.php(50): require_once('C:\\Users\\hispe\\...')
+#8 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-cron.php(46): require_once('C:\\Users\\hispe\\...')
+#9 {main}
+  thrown in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\yith-woocommerce-wishlist\includes\class-yith-wcwl-install.php on line 132
+[27-Oct-2024 15:37:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_create_page() in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\yith-woocommerce-wishlist\includes\class-yith-wcwl-install.php:132
+Stack trace:
+#0 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\yith-woocommerce-wishlist\includes\class-yith-wcwl-install.php(76): YITH_WCWL_Install->add_pages()
+#1 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\yith-woocommerce-wishlist\includes\class-yith-wcwl-install.php(49): YITH_WCWL_Install->init()
+#2 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-includes\class-wp-hook.php(324): YITH_WCWL_Install->maybe_install('')
+#3 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-settings.php(700): do_action('init')
+#6 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-config.php(103): require_once('C:\\Users\\hispe\\...')
+#7 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-load.php(50): require_once('C:\\Users\\hispe\\...')
+#8 C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-blog-header.php(13): require_once('C:\\Users\\hispe\\...')
+#9 C:\Users\hispe\Local Sites\glory-fashion\app\public\index.php(17): require('C:\\Users\\hispe\\...')
+#10 {main}
+  thrown in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\yith-woocommerce-wishlist\includes\class-yith-wcwl-install.php on line 132
+[27-Oct-2024 15:50:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1627
+[27-Oct-2024 15:50:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1628
+[27-Oct-2024 15:50:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1629
+[27-Oct-2024 15:50:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1630
+[27-Oct-2024 15:50:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1639
+[27-Oct-2024 15:50:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1639
+[27-Oct-2024 15:50:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1627
+[27-Oct-2024 15:50:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1628
+[27-Oct-2024 15:50:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1629
+[27-Oct-2024 15:50:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1630
+[27-Oct-2024 15:50:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1639
+[27-Oct-2024 15:50:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1639
+[27-Oct-2024 15:50:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1627
+[27-Oct-2024 15:50:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1628
+[27-Oct-2024 15:50:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1629
+[27-Oct-2024 15:50:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1630
+[27-Oct-2024 15:50:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1639
+[27-Oct-2024 15:50:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1639
+[27-Oct-2024 15:50:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1627
+[27-Oct-2024 15:50:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1628
+[27-Oct-2024 15:50:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1629
+[27-Oct-2024 15:50:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1630
+[27-Oct-2024 15:50:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1639
+[27-Oct-2024 15:50:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1639
+[27-Oct-2024 15:51:21 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1627
+[27-Oct-2024 15:51:21 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1628
+[27-Oct-2024 15:51:21 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1629
+[27-Oct-2024 15:51:21 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1630
+[27-Oct-2024 15:51:21 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1639
+[27-Oct-2024 15:51:21 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1639
+[27-Oct-2024 16:20:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1627
+[27-Oct-2024 16:20:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1628
+[27-Oct-2024 16:20:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1629
+[27-Oct-2024 16:20:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1630
+[27-Oct-2024 16:20:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1639
+[27-Oct-2024 16:20:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1639
+[27-Oct-2024 16:26:37 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1627
+[27-Oct-2024 16:26:37 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1628
+[27-Oct-2024 16:26:37 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1629
+[27-Oct-2024 16:26:37 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1630
+[27-Oct-2024 16:26:37 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1639
+[27-Oct-2024 16:26:37 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1639
+[27-Oct-2024 17:29:40 UTC] PHP Warning:  Undefined array key "color" in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\elementor\core\editor\data\globals\endpoints\colors.php on line 37
+[27-Oct-2024 17:29:40 UTC] PHP Warning:  Undefined array key "color" in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\elementor\core\editor\data\globals\endpoints\colors.php on line 37
+[27-Oct-2024 17:29:48 UTC] PHP Warning:  Undefined array key "color" in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\elementor\core\editor\data\globals\endpoints\colors.php on line 37
+[27-Oct-2024 17:29:48 UTC] PHP Warning:  Undefined array key "color" in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\elementor\core\editor\data\globals\endpoints\colors.php on line 37
+[27-Oct-2024 17:29:48 UTC] PHP Warning:  Undefined array key "color" in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\elementor\core\editor\data\globals\endpoints\colors.php on line 37
+[27-Oct-2024 17:29:48 UTC] PHP Warning:  Undefined array key "color" in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\elementor\core\editor\data\globals\endpoints\colors.php on line 37
+[27-Oct-2024 17:29:48 UTC] PHP Warning:  Undefined array key "color" in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\elementor\core\editor\data\globals\endpoints\colors.php on line 37
+[27-Oct-2024 17:29:48 UTC] PHP Warning:  Undefined array key "color" in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\elementor\core\editor\data\globals\endpoints\colors.php on line 37
+[27-Oct-2024 17:29:48 UTC] PHP Warning:  Undefined array key "color" in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\elementor\core\editor\data\globals\endpoints\colors.php on line 37
+[27-Oct-2024 17:29:48 UTC] PHP Warning:  Undefined array key "color" in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\elementor\core\editor\data\globals\endpoints\colors.php on line 37
+[27-Oct-2024 19:17:19 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[28-Oct-2024 15:47:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1627
+[28-Oct-2024 15:47:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1628
+[28-Oct-2024 15:47:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1629
+[28-Oct-2024 15:47:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1630
+[28-Oct-2024 15:47:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1639
+[28-Oct-2024 15:47:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1639
+[28-Oct-2024 15:47:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1627
+[28-Oct-2024 15:47:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1628
+[28-Oct-2024 15:47:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1629
+[28-Oct-2024 15:47:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1630
+[28-Oct-2024 15:47:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1639
+[28-Oct-2024 15:47:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1639
+[28-Oct-2024 15:47:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1627
+[28-Oct-2024 15:47:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1628
+[28-Oct-2024 15:47:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1629
+[28-Oct-2024 15:47:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1630
+[28-Oct-2024 15:47:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1639
+[28-Oct-2024 15:47:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1639
+[31-Oct-2024 04:02:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\elementor\includes\base\widget-base.php on line 223
+[31-Oct-2024 04:02:32 UTC] PHP Warning:  Undefined array key -1 in C:\Users\hispe\Local Sites\glory-fashion\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php on line 695
