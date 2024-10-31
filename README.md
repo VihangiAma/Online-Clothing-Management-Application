@@ -9,4 +9,4 @@
   <li><b>Reporting: </b>Generate reports for business insights and performance analysis.</li>
 </ul>
 <p>This application integrates essential features to support smooth business operations and enhance customer service.</p>
- 
+ <p>Visit our live website: [GLORY FASHION](http://glory-fashion.local/)</p>
