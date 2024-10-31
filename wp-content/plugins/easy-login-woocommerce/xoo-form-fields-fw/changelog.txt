@@ -1,0 +1,2 @@
+== 1.7 ==
+* Select 2 library optional
